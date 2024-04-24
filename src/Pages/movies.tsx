@@ -1,10 +1,17 @@
-import "./movies.css"
+import "./movies.css";
+import VDV from "../assets/filmComp/VDV";
 
 function movies(){
     return(
-        <div>
-            <p>,,,ç,ç,ç</p>
+
+        <>
+        <div className="bd1" content="borderbox">
+            <p>filmes</p>
+           <VDV/>
+            
         </div>
+        </>
+
     )
 }
 

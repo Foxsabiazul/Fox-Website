@@ -168,7 +168,7 @@ function Recomends(){
             <div className='itemsr1'>
               <img className='it1f' src={ilha}/>
               <div className='des1'>
-                  <p className='tl1'>ilhadomedo</p>
+                  <p className='tl1'>Ilha do Medo</p>
                   <div className='imdb'>
                   <p>4,5</p>
                     <div className='sti'>
@@ -184,9 +184,9 @@ function Recomends(){
             <div className='itemsr1'>
               <img className='it1f' src={arch}/>
               <div className='des1'>
-                  <p className='tl1'>slak</p>
+                  <p className='tl1'>...</p>
                   <div className='imdb'>
-                  <p>imdb 4,5</p>
+                  <p>4,5</p>
                     <div className='sti'>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
@@ -202,7 +202,7 @@ function Recomends(){
               <div className='des1'>
                   <p className='tl1'>V-de-Vingança</p>
                   <div className='imdb'>
-                  <p>imdb 4,5</p>
+                  <p>4,5</p>
                     <div className='sti'>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>

@@ -5,7 +5,6 @@ body{
      #0066667c, 
      #0a0e24);
     background-size: 330%, 330%;
-    /*width: 100vh;*/
     animation: colors 50s ease-in-out infinite;
 }
 

@@ -20,16 +20,18 @@
     padding-left: 100px;
     font-size: 18px;
     height: 80px;
+    
   }
   
   .hb1{
     padding: 50px;
     cursor: pointer;
+    
   }
   
   .hb1:hover{
     transition: 0.2s;
-    color: rgb(101, 84, 253);
+    
   
   
   }
@@ -46,6 +48,7 @@
     width: 300px;
     outline: none;
     display: flex;
+    border-color: #440083;
   }
   
   .ps1b{
@@ -56,10 +59,12 @@
     outline: none;
     border: none;
     cursor: pointer;
+    border-color: #8400ff;
   }
   
   .ps1f{
     width: 20px;
     height: 22px;
     outline: none;
+    border-color: #762cbb;
   }
