@@ -1,9 +1,9 @@
-import star  from "../Components/star.svg";
-import mstar from "../Components/meia-star.svg";
-import witch from "../Components/a-bruxa-thewitch-poster.jpg";
+import star  from "../imgs/star.svg";
+import mstar from "../imgs/meia-star.svg";
+import witch from "../imgs/a-bruxa-thewitch-poster.jpg";
 
 
-function Components(){
+function WITCH(){
     return(
     <>
           <div className='itemsr1'>
@@ -28,4 +28,4 @@ function Components(){
     
 }
 
-export default Components
+export default WITCH

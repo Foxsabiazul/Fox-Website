@@ -1,8 +1,8 @@
-import star from "../Components/star.svg";
-import mstar from  "../Components/meia-star.svg";
-import irish from "../Components/irisman-movie.jpg";
+import star from "../imgs/star.svg";
+import mstar from  "../imgs/meia-star.svg";
+import irish from "../imgs/irisman-movie.jpg";
 
-function Components(){
+function IRLND(){
         return(
     <>
             <div className='itemsr1'>
@@ -25,4 +25,4 @@ function Components(){
 </>
 )}
 
-export default Components
+export default IRLND

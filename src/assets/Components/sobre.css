@@ -1,13 +1,10 @@
 .sobre{
     background-color: #ffffff;
-    background-image: url(./11dbd31bf43e742af6bfe7f6ea10f983.jpg);
+    background-image: url(../imgs/11dbd31bf43e742af6bfe7f6ea10f983.jpg);
     background-repeat: repeat-x;
     background-size: contain;
-    /*height: 500px;
     display: flex;
-    background-size: contain;
-    background-repeat: repeat-x;
-    width: 100%;*/
+    flex-direction: row;
   }
   
       .stt1{
@@ -25,10 +22,20 @@
     padding-left: 80px;
   }
   
-  .stc{
-    padding-top: 120px;
-    padding-left: 150px;
-    font-size: 30px;
+  .stcl{
+    padding-left: 650px;
+  }
+
+  .stc2a{
+    font-size: 45px;
+    color: purple;
+    padding-right: 400px;
+  }
+
+  .stc2b{
+    font-size: 45px;
+    color: purple;
+    padding-left: 50px;
   }
   
   .stf1{

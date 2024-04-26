@@ -1,8 +1,8 @@
-import star  from "../Components/star.svg";
-import mstar from "../Components/meia-star.svg";
-import arch from "../Components/archive.jpeg";
+import star  from "../imgs/star.svg";
+import mstar from "../imgs/meia-star.svg";
+import arch from "../imgs/archive.jpeg";
 
-function Components(){
+function OPt(){
     return(
 <>
         <div className='itemsr1'>
@@ -26,4 +26,4 @@ function Components(){
     
 }
 
-export default Components
+export default OPt

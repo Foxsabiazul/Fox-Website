@@ -1,8 +1,8 @@
-import varse from "../Components/V-for-Vendetta-.jpg";
-import star from "../Components/star.svg";
-import mstar from "../Components/meia-star.svg";
+import star from "../imgs/star.svg";
+import mstar from "../imgs/meia-star.svg";
+import varse from "../imgs/V-for-Vendetta-.jpg";
 
-function Components(){
+function VDV(){
     return(
         <>
             <div className='itemsr1'>
@@ -15,6 +15,7 @@ function Components(){
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
+                    <img className='st1' src={star}/>
                     <img className='st1' src={mstar}/>
                     </div>
                   </div>
@@ -23,4 +24,4 @@ function Components(){
         </>
     )}
     
-export default Components
+export default VDV

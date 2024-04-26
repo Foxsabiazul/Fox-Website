@@ -1,8 +1,8 @@
-import star from "../Components/star.svg" ;
-import mstar from "../Components/meia-star.svg";
-import enemi from "../Components/public-enemies.jpg";
+import star from "../imgs/star.svg" ;
+import mstar from "../imgs/meia-star.svg";
+import enemi from "../imgs/public-enemies.jpg";
 
-function Components(){
+function IniP(){
 return(
     <>
 <div className='itemsr1'>
@@ -25,5 +25,5 @@ return(
     </>
 )}
 
-export default Components
+export default IniP
 

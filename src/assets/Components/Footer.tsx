@@ -1,7 +1,7 @@
 import "./Footer.css"
-import insta from "./insta.svg";
-import face from "./face.svg";
-import git from "./git.svg";
+import insta from "../imgs/insta.svg";
+import face from "../imgs/face.svg";
+import git from "../imgs/git.svg";
 
 
 function Footer(){

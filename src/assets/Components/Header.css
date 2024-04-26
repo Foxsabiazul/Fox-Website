@@ -68,3 +68,27 @@
     outline: none;
     border-color: #762cbb;
   }
+
+  .dropd{
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .dropd a:hover{
+    background-color: aquamarine;
+  }
+
+  .dropd-m{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+  }
+
+  .dropd-m a{
+    display: block;
+    color: black;
+  }
+
+  .dropd:hover .dropd-m{
+    display: block;
+  }
