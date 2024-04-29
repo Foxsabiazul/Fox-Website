@@ -8,14 +8,14 @@ function Header(){
     <div className='header'>
         <img src={logo} className='lg'/>
         <li className='list1'>
-          <p className='hb1'>P.inicial</p>
-          <p className='hb1'>Gêneros</p>
+          <a href="/home"><p className='hb1'>P.inicial</p></a>
           <li className="dropd">
-            <a href="">categorias</a>
+            <a href="">Gêneros</a>
             <div className="dropd-m">
-                <a>asdasd</a>
-                <a>asdasda</a>
-                <a>asdasdas</a>
+                <a href="/terror">Terror <li> 
+                  <Link to="/horror" className="pog"></Link></li></a>               
+                <a>Ação</a>
+                <a>Comédia</a>
             </div>
           </li>
           <Link to="/movies" className='hb1'>Filmes</Link>

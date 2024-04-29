@@ -74,8 +74,8 @@
     text-decoration: none;
   }
 
-  .dropd a:hover{
-    background-color: aquamarine;
+  .dropd .dropd-m a:hover{
+    background-color: #6200ff85;
   }
 
   .dropd-m{
@@ -91,4 +91,8 @@
 
   .dropd:hover .dropd-m{
     display: block;
+  }
+
+  .header a {
+    color: #009781;
   }

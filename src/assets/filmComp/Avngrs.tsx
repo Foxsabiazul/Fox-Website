@@ -1,5 +1,5 @@
-import Star  from "../imgs/star.svg";
-import mstar from "../imgs/meia-star.svg";
+import Star  from "../imgs/star-svgrepo-com 1.svg";
+import mstar from "../imgs/star-svgrepo-com 2.svg";
 import avg   from "../imgs/movies-avengers.jpeg";
 
 function Avngrs(){

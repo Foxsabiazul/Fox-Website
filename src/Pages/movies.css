@@ -1,7 +1,15 @@
+body{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: double;
+       
+}
 
 
 .bd1{
     box-sizing: border-box;
     border-radius: 20;
+    display: flex;
+    flex-wrap: wrap;
 
 }

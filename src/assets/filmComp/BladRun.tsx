@@ -1,14 +1,15 @@
-import star from "../imgs/star-svgrepo-com 1.svg";
-import mstar from "../imgs/star-svgrepo-com 2.svg";
-import ilha from "../imgs/ilha-do-medo.jpg";
+import star from '../imgs/star-svgrepo-com 1.svg';
+import mstar from '../imgs/star-svgrepo-com 2.svg';
+import blru from '../imgs/poster-blade-runner.jpeg';
 
-function IdM(){
-return(
-    <>
+
+function BLR (){
+    return(
+<>
     <div className='itemsr1'>
-                <img className='it1f' src={ilha}/>
+                <img className='it1f' src={blru}/>
     <div className='des1'>
-                    <p className='tl1'>Ilha do Medo</p>
+                    <p className='tl1'>Blade Runner</p>
     <div className='imdb'>
                     <p>4,5</p>
     <div className='sti'>
@@ -22,6 +23,7 @@ return(
         </div>
     </div> 
 </>
+
 )}
 
-export default IdM
+export default BLR
