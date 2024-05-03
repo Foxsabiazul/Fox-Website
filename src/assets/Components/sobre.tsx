@@ -9,8 +9,8 @@ function Sobre(){
         </div> 
         <div>
             <li className="stcl">
-            <p className='stc2a'>Um site desenvolvido</p>
-            <p className='stc2b'>para o seu entretenimento</p>
+            <p className='stc2a'>Um site desenvolvido para o seu entretenimento</p>
+            
             </li>
         </div>
     </div>

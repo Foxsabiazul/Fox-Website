@@ -9,8 +9,8 @@
     margin-bottom: 5px;
     background-color: black;
     display: flex;
-    color: white;
-    border-bottom: 2px solid #5900ff69;
+    color: #ffffffef;
+    border-bottom: 2px solid #4505bbda;
   }
   
   .list1{
@@ -48,25 +48,28 @@
     width: 300px;
     outline: none;
     display: flex;
-    border-color: #440083;
+    border-color: #460088;
   }
   
   .ps1b{
-    width: 30px;
-    height: 24px;
+    width: 40px;
+    height: 30px;
+    display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     outline: none;
     border: none;
     cursor: pointer;
-    border-color: #8400ff;
+    border-color: #6200ffab;
   }
   
   .ps1f{
     width: 20px;
-    height: 22px;
+    top: 25px;
     outline: none;
-    border-color: #762cbb;
+    align-items: center;
+    border-color: #37009e;
+    transition: 0.5s;
   }
 
   .dropd{
@@ -94,5 +97,7 @@
   }
 
   .header a {
-    color: #009781;
+    color: #470c94;
   }
+/*saçlkdçljlkfjkdsaljfklsjfdçlkjfsgjhrehgoiuerhguierwhe0-wq9i-  q09e0-219340-2134edslkvnxkcnvxmcvmsgvds010110101010101101001100101010101010101010101011001010101011001011*/
+

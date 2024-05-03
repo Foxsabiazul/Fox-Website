@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../filmPages/VDVpage.css";
+import "./VDVpage.css";
 import varse from "../imgs/V-for-Vendetta-.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
+import PFCfoto from "../imgs/user.svg";
 
 export interface User{
     id: number;
@@ -48,24 +49,29 @@ function VDVpage(){
                 </div>
                 </div>
                 </div>
+                <div className="PFcont3">
                 <div className="PFgeneros">
-                    <p>Generos</p>
+                    <p className="PFgeneros2">Generos</p>
                     <a href="" target="_blank">Ação</a>
                     <a href="" target="_blank">Ficção Científica</a>
                 </div>
-                <div>
+                <div className="PFplayer">
                     <p>PLayers</p>
-                    <p>Lengendado</p>
-                    <p>Dublado</p>
+                    <div className="PFplayer2">
+                    <button className="PFplayerl">Legendado</button>
+                    <button className="PFplayerd">Dublado</button>
+                    </div>
+                </div>
                 </div>
              </div>
              <div className="PFcomentario">
              {users.map((user) => (
                 <div key={user.id} className='PFcomentario2'>
-                <div className='nc'>
+                  <img className="PFCfoto" src={PFCfoto}/>
+                  <div className="PFcomentarios2">
                   <p className='td1' style={{ width: "300px" }}>{user.nome}</p>
                   <p className='td3' style={{ width: "300px" }}>{user.comentario}</p>
-                </div> 
+                </div>
                 </div>
             ))}
             </div>

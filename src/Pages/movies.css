@@ -1,15 +1,31 @@
 body{
-    color: #ffffff;
-    text-align: center;
-    text-decoration: double;
-       
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+ }
+
+.PMm{
+    width: 1902px;
 }
 
-
-.bd1{
-    box-sizing: border-box;
-    border-radius: 20;
+.PMcont{
+    width: 1780px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-between;
+    line-break: loose;
 }
+
+.PMpP{
+    font-size: 22px;
+    justify-content: end;
+    display: flex;
+    margin-right: 100px;
+}
+
+.PMpP a{
+    font-style: none;
+    color: #000000a1;
+}
+
+

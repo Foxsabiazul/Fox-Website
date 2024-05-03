@@ -10,7 +10,7 @@ import IRLND   from "../filmComp/IRLND";
 import IniP    from "../filmComp/IniP";
 import IdM     from "../filmComp/IdM";
 import VDV     from "../filmComp/VDV";
-import BladRun from "../filmComp/BladRun";
+
 
 
 
@@ -33,7 +33,6 @@ function Recomends(){
             <IniP/>
             <IdM/>
             <VDV/>
-            <BladRun/>
            </li>
          </div>
     )

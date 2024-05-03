@@ -1,7 +1,8 @@
 import "./Header.css"
 import logo from "../imgs/Simple Black Beige Men Style Typography Fashion Logo.png"
-import lupa from "../imgs/lupa.svg"
+import lupa from "../imgs/pipoca-para-filmes.png"
 import { Link } from "react-router-dom";
+
     
 function Header(){
     return(
@@ -21,9 +22,9 @@ function Header(){
           <Link to="/movies" className='hb1'>Filmes</Link>
         </li>
         <div className='ps1'>
-            <input className='ps1i' type="text" placeholder='             oque você esta procurando?' />
-            <button className='ps1b'><img className='ps1f' src={lupa}/></button>
-
+            <input className='ps1i' type="text" placeholder='          procurando por diversão?    '></input>
+            <button className='ps1b'><img className='ps1f' src={lupa} /></button>
+            
         </div>
     </div>
     )

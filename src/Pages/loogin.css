@@ -1,9 +1,10 @@
 body{
     background: linear-gradient( 45deg , 
-     #3877ff85,
-     #412db1, 
-     #0066667c, 
-     #0a0e24);
+     #feffb8b6,
+     #3d02c7ab,
+     #00000057, 
+     #1199993b, 
+     #00000057);
     background-size: 330%, 330%;
     animation: colors 50s ease-in-out infinite;
 }
@@ -18,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(#fffef5b2, #cccccc96, #ffffff34);
-    border: 1px solid  #231a55 ;
+    border: 1px solid  #0e6161 ;
     border-radius: 15px;
     
 }

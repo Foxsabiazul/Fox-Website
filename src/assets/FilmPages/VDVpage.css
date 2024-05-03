@@ -22,6 +22,10 @@ body{
     width: 1342px;
 }
 
+.PFcont3{
+    display: flex;
+}
+
 .PFdescricao{
     border: 1px solid black;
     border-radius: 50px;
@@ -48,7 +52,86 @@ body{
     margin-top: 50px;
 }
 
-.
+.PFgeneros a{
+    font-style: none;
+    color:rgb(37, 36, 36);
+}
 
+.PFgeneros{
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 12px;
+    margin-left: 100px;
+    background-color: rgba(196, 166, 223, 0.329);
+    align-items: center;
+    height: 200px;
+}
 
+.PFplayer{
+    border:  black 1px solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 720px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.PFplayer2{
+    display: flex;
+    margin: 50px;
+}
+
+.PFplayerl{
+    margin-right: 250px;
+    border: #ffffff 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 40px;
+    color: #00000094;
+    background-color: #41007e4b;
+}
+
+.PFplayerd{
+    border: #ffffff 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 40px;
+    color: black;
+    background-color: #59258a86;
+}
+
+.PFcomentario{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 1600px;
+}
+
+.PFcomentario2{
+    border: #1b1b1b 1px solid;
+    margin-top: 50px;
+    padding-left: 30px;
+    border-radius: 15px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    color: #006e7cc9;
+}
+
+.PFCfoto{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}

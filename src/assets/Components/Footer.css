@@ -8,19 +8,15 @@
   letter-spacing: 1px;
 
 }
-:root{
-
-
-}
 
 .footer{
-    background: linear-gradient(#1f0029, #0000009f);
+    background: linear-gradient(#5d1a94, #300088);
     
   }
   
   .CPF{
     font-size: 17px;
-    background: linear-gradient(#000000c2, #2500337a);
+    background: linear-gradient(#020202, #d4f1ff00);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,8 +24,11 @@
   
   .FP{
     padding-left: 5px;
-    color: #6127ff;
+    color: #1d009e;
+
   } 
+
+
   
   .li1{
     list-style: none;
@@ -42,11 +41,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
-    color: #6127ff;
+    color:  #1111119f;
+    transition: 1.0s;
   }
   
   a:link, a:hover{
     text-decoration: none;
+    color: #009160ad;
   }
   
   .icon2{
@@ -59,6 +60,7 @@
     font-size: 20px;
     padding-left: 100px;
     padding-top: 10px;
+    color: #000000;
   }
 
   .ft2{
@@ -68,5 +70,11 @@
     align-items: center;
   } 
   
-
-
+/*0110110101011010111111111000001111111111111000100000000001010100101010101010101111001010101010101010101010101010101011010101010110100110010101010101010101010101100101010101100101010110101010101101001100101010101010101010101011001010101011001011*/
+  @import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
+  @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
+  @import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
+  
+  * *, *::before, *::after { 
+    animation-play-state: running !important;
+  }

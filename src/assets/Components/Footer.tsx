@@ -17,6 +17,31 @@ function Footer(){
         </div>
         <div className='CPF'>
         <p className='CP'>COPYRIGHT © 2024 - ALL RIGHTS RESERVED BY </p><p className='FP'>Fox Movies</p>
+
+        <div className="stage">
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+</div>
+
+<script>window.setTimeout = null;</script>
         </div>
         </div>
     )

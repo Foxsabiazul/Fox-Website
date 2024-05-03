@@ -1,34 +1,52 @@
 import "./movies.css";
 import VDV from "../assets/filmComp/VDV";
-import MARIO from "../assets/filmComp/MARIO";
-import BLR from "../assets/filmComp/BladRun";
-import OPh from "../assets/filmComp/Openheimer";
-import OPt from "../assets/filmComp/OP";
-import Avngrs from "../assets/filmComp/Avngrs";
-import IniP from "../assets/filmComp/IniP";
-import IRLND from "../assets/filmComp/IRLND";
-import SRs from "../assets/filmComp/SR";
+import Header from "../assets/Components/Header";
+import AsB from "../assets/filmComp/AsB";
 import IdM from "../assets/filmComp/IdM";
-import WITCH from "../assets/filmComp/WITCH";
+import Avngrs from "../assets/filmComp/Avngrs";
+import IRLND from "../assets/filmComp/IRLND";
+import MARIO from "../assets/filmComp/MARIO";
+import OPt from "../assets/filmComp/OP";
+import OPh from "../assets/filmComp/Openheimer";
+import SRs from "../assets/filmComp/SR";
+import Footer from "../assets/Components/Footer";
 
 function movies(){
     return(
+
         <>
-        <div className="bd1" content="borderbox">
-            <p>Filmes</p>
-            <VDV/>
-            <BLR/>
-            <MARIO/>
-            <OPh/>
-            <OPt/>
-            <Avngrs/>
-            <IniP/>
-            <IRLND/>
-            <SRs/>
-            <WITCH/>
-            <IdM/>
-
-
+        <div className="PMm">
+            <div className="PMheader">
+        <Header/>
+            </div>
+        <div className="PMcont">
+           <VDV/>
+           <AsB/>
+           <IdM/>
+           <Avngrs/>
+           <IRLND/>
+           <MARIO/>
+           <OPt/>
+           <OPh/>
+           <SRs/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+           <VDV/>
+        </div>
+        <div className="PMpP">
+            <p>Paginas: <a href="/movies">1</a>,<a href="/movies-2">2</a>,<a href="/movies-3">3</a>...</p>
+        </div>
+        <div className="PMfooter">
+            <Footer/>
+        </div>
         </div>
         </>
 
