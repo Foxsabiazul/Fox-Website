@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../FilmPages/VDVpage.css";
+import "./VDVpage.css";
 import varse from "../imgs/V-for-Vendetta-.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
@@ -40,20 +40,17 @@ function VDVpage(){
                 <div className="PFcont1">
                 <div className="PFposter"><img className="PFposter2" src={varse}/></div>
                     <div className="PFcont2">
-                <div className="PFtitulo"><p className="PFtitulo2">V De Vingança</p></div>
-                <div className="PFdescricao"><p className="PFdescricao2">Em uma Inglaterra do futuro, onde está em vigor um regime totalitário, vive Evey Hammond (Natalie Portman).
-                     Ela é salva de uma situação de vida ou morte por um homem mascarado, conhecido apenas pelo codinome V (Hugo Weaving), que é extremamente
-                     carismático e habilidoso na arte do combate e da destruição. Ao convocar seus compatriotas a se rebelar contra a tirania e a opressão do
-                     governo inglês, V provoca uma verdadeira revolução. Enquanto Evey tenta saber mais sobre o passado de V, ela termina por descobrir quem é
-                      e seu papel no plano de seu salvador para trazer liberdade e justiça ao país.</p>
+                <div className="PFtitulo"><p className="PFtitulo2">Seven - Os Sete Crimes Capitais</p></div>
+                <div className="PFdescricao"><p className="PFdescricao2">Dois policiais, om jovem e impetuoso David Mills (Brad Pitt) e o outro maduro e prestes a se aposentar, William Somerset (Morgan Freeman), são encarregados de uma periogosa investigação: encontrar um serial killer que mata as pessoas seguindo a ordem dos sete pecados capitais.</p>
                 </div>
                 </div>
                 </div>
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Ação</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="" target="_blank">Policial</a>
+                    <a href="" target="_blank">Drama</a>
+                    <a href="" target="_blank">Suspence</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

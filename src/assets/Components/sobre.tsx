@@ -1,4 +1,4 @@
-import "./sobre.css";
+import "./sobre.scss";
 
 function Sobre(){
     return(
@@ -8,12 +8,18 @@ function Sobre(){
             <h3 className='st1n'>Movies</h3>
         </div> 
         <div>
-            <li className="stcl">
-            <p className='stc2a'>Um site desenvolvido para o seu entretenimento</p>
-            
-            </li>
+           
+            <div className="l-words">
+                <div className="c-word">Um Site</div>
+                <div className="c-word">Desenvolvido</div>
+                <div className="c-word">Para o seu</div>
+                <div className="c-word">Entretenimento</div>
+                
+
+            </div>
         </div>
     </div>
+
     )
 }
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../FilmPages/VDVpage.css";
-import varse from "../imgs/V-for-Vendetta-.jpg";
+import "./VDVpage.css";
+import ilha from "../imgs/ilha-do-medo.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
 import PFCfoto from "../imgs/user.svg";
@@ -38,22 +38,18 @@ function VDVpage(){
                  </div>
              <div className="PFcont">
                 <div className="PFcont1">
-                <div className="PFposter"><img className="PFposter2" src={varse}/></div>
+                <div className="PFposter"><img className="PFposter2" src={ilha}/></div>
                     <div className="PFcont2">
-                <div className="PFtitulo"><p className="PFtitulo2">V De Vingança</p></div>
-                <div className="PFdescricao"><p className="PFdescricao2">Em uma Inglaterra do futuro, onde está em vigor um regime totalitário, vive Evey Hammond (Natalie Portman).
-                     Ela é salva de uma situação de vida ou morte por um homem mascarado, conhecido apenas pelo codinome V (Hugo Weaving), que é extremamente
-                     carismático e habilidoso na arte do combate e da destruição. Ao convocar seus compatriotas a se rebelar contra a tirania e a opressão do
-                     governo inglês, V provoca uma verdadeira revolução. Enquanto Evey tenta saber mais sobre o passado de V, ela termina por descobrir quem é
-                      e seu papel no plano de seu salvador para trazer liberdade e justiça ao país.</p>
+                <div className="PFtitulo"><p className="PFtitulo2">Ilha do Medo</p></div>
+                <div className="PFdescricao"><p className="PFdescricao2">O que um bom filme de suspense precisa ter?  Ação? Nem tanto. Um bom elenco? Ajuda.  Roteiro e direção de qualidade? Certamente.  As perguntas e respostas anteriores sintetizam o que é Ilha do Medo, filme estrelado por Leonardo DiCaprio apoiado por um elenco competente, multinacional e muito luxuoso. A abertura simples acompanhada dos acordes iniciais de uma trilha absolutamente memorável já deixa o espectador com a impressão que está diante de um filmão. O que pode ser comprovado logo em seguida na apresentação magistral (visual e falada) de onde vai se desenrolar a trama. É quase impossível não ser pego nestes primeiros minutos e este é o grande barato da história: gerar envolvimento. Di Caprio vive um agente federal atormentado pelo passado diante de uma trama psicológica que vai envolver você do começo ao fim, fazendo lembrar os bons filmes de mestres do gênero, do qual Martin Scorse</p>
                 </div>
                 </div>
                 </div>
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Ação</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="" target="_blank">Suspence</a>
+                    
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

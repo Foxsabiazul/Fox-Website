@@ -1,11 +1,12 @@
-import star  from "../imgs/star-svgrepo-com 1.svg";
-import mstar from "../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star-svgrepo-com 1.svg";
+import mstar from"../imgs/star-svgrepo-com 2.svg";
 import arch from "../imgs/archive.jpeg";
 
 function OPt(){
     return(
 <>
         <div className='itemsr1'>
+            <a href="/O-Prototipo">
                 <img className='it1f' src={arch}/>
         <div className='des1'>
                     <p className='tl1'>O Protótipo</p>
@@ -20,6 +21,7 @@ function OPt(){
                     </div>
                 </div>
             </div>
+            </a>
         </div>
 </>
             )

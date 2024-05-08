@@ -8,7 +8,7 @@ function Footer(){
     return(
         <div className='footer'>
             <div className="ft2">
-        <h3 className='ft'>Nossa redes Sociais</h3>
+        <h3 className='ft'>Nossas Redes Sociais</h3>
         <li className='li1'>
         <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={face}/> Facebook</a>
         <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={insta}/>Instagram</a>
@@ -17,31 +17,6 @@ function Footer(){
         </div>
         <div className='CPF'>
         <p className='CP'>COPYRIGHT © 2024 - ALL RIGHTS RESERVED BY </p><p className='FP'>Fox Movies</p>
-
-        <div className="stage">
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-  <div className="layer"></div>
-</div>
-
-<script>window.setTimeout = null;</script>
         </div>
         </div>
     )

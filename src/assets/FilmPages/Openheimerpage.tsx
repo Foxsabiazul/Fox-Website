@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../FilmPages/VDVpage.css";
-import varse from "../imgs/V-for-Vendetta-.jpg";
+import "./VDVpage.css";
+import open from "../imgs/Openheimer.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
 import PFCfoto from "../imgs/user.svg";
@@ -38,22 +38,19 @@ function VDVpage(){
                  </div>
              <div className="PFcont">
                 <div className="PFcont1">
-                <div className="PFposter"><img className="PFposter2" src={varse}/></div>
+                <div className="PFposter"><img className="PFposter2" src={open}/></div>
                     <div className="PFcont2">
-                <div className="PFtitulo"><p className="PFtitulo2">V De Vingança</p></div>
-                <div className="PFdescricao"><p className="PFdescricao2">Em uma Inglaterra do futuro, onde está em vigor um regime totalitário, vive Evey Hammond (Natalie Portman).
-                     Ela é salva de uma situação de vida ou morte por um homem mascarado, conhecido apenas pelo codinome V (Hugo Weaving), que é extremamente
-                     carismático e habilidoso na arte do combate e da destruição. Ao convocar seus compatriotas a se rebelar contra a tirania e a opressão do
-                     governo inglês, V provoca uma verdadeira revolução. Enquanto Evey tenta saber mais sobre o passado de V, ela termina por descobrir quem é
-                      e seu papel no plano de seu salvador para trazer liberdade e justiça ao país.</p>
+                <div className="PFtitulo"><p className="PFtitulo2">Oppenheimer</p></div>
+                <div className="PFdescricao"><p className="PFdescricao2">Oppenheimer é um filme histórico de drama dirigido por Christopher Nolan e baseado no livro biográfico vencedor do Prêmio Pulitzer, Prometeu Americano: O Triunfo e a Tragédia de J. Robert Oppenheimer, escrito por Kai Bird e Martin J. Sherwin. Ambientado na Segunda Guerra Mundial, o longa acompanha a vida de J. Robert Oppenheimer (Cillian Murphy), físico teórico da Universidade da Califórnia e diretor do Laboratório de Los Alamos durante o Projeto Manhattan - que tinha a missão de projetar e construir as primeiras bombas atômicas. A trama acompanha o físico e um grupo formado por outros cientistas ao longo do processo de desenvolvimento da arma nuclear que foi responsável pelas tragédias nas cidades de Hiroshima e Nagasaki, no Japão, em 1945. Além de Cillian, o elenco também traz nomes como Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Gary Oldman, Jack Quaid, Gustaf Skarsgård, Rami Malek e Kenneth Branagh.</p>
                 </div>
                 </div>
                 </div>
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Ação</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="" target="_blank">Biografia</a>
+                    <a href="" target="_blank">Histórico</a>
+                    <a href="" target="_blank">Suspence</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

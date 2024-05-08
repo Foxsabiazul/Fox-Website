@@ -42,14 +42,15 @@ body{
     width: 1150px;
     height: 500px;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 40px;
     font-size: 20px;
 }
 
 .PFtitulo{
     font-size: 70px;
-    margin-left: 300px;
     margin-top: 50px;
+    justify-content: center;
+    display: flex;
 }
 
 .PFgeneros a{
@@ -127,7 +128,7 @@ body{
     height: 60px;
     align-items: center;
     display: flex;
-    color: #006e7cc9;
+    color: #000000c9;
 }
 
 .PFCfoto{

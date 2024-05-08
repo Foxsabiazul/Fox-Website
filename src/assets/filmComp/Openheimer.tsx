@@ -1,4 +1,4 @@
-import star from "../imgs/star-svgrepo-com 1.svg";
+import star  from"../imgs/star-svgrepo-com 1.svg";
 import open from "../imgs/Openheimer.jpg";
 
 function OPh(){
@@ -6,6 +6,7 @@ function OPh(){
 <>
     <li className='itemsr'>
         <div className='itemsr1'>
+            <a href="/Openheimer">
             <img className='it1f' src={open}/>
         <div className='des1'>
                 <p className='tl1'>Openheimer</p>
@@ -19,6 +20,7 @@ function OPh(){
                 </div>
             </div>
         </div>
+        </a>
     </div> 
 </li>
 </>    

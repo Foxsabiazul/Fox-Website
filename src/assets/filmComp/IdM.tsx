@@ -1,11 +1,12 @@
-import star from "../imgs/star-svgrepo-com 1.svg";
-import mstar from "../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star-svgrepo-com 1.svg";
+import mstar from"../imgs/star-svgrepo-com 2.svg";
 import ilha from "../imgs/ilha-do-medo.jpg";
 
 function IdM(){
 return(
     <>
     <div className='itemsr1'>
+            <a href="/Ilha-do-Medo">
                 <img className='it1f' src={ilha}/>
     <div className='des1'>
                     <p className='tl1'>Ilha do Medo</p>
@@ -20,6 +21,7 @@ return(
                 </div>
             </div>
         </div>
+        </a>
     </div> 
 </>
 )}

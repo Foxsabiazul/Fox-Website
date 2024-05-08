@@ -1,11 +1,12 @@
-import star from "../imgs/star-svgrepo-com 1.svg";
-import mstar from "../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star-svgrepo-com 1.svg";
+import mstar from"../imgs/star-svgrepo-com 2.svg";
 import rastro from "../imgs/sem-rastro.jpg";
 
 function SRs(){
     return(
     <>
         <div className='itemsr1'>
+            <a href="/Sem-Rastros">
             <img className='it1f' src={rastro}/>
         <div className='des1'>
                 <p className='tl1'>Sem Rastros</p>
@@ -20,6 +21,7 @@ function SRs(){
                     </div>
                 </div>
             </div>
+            </a>
         </div>
     </> 
     

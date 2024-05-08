@@ -1,15 +1,15 @@
 import star  from"../imgs/star-svgrepo-com 1.svg";
 import mstar from"../imgs/star-svgrepo-com 2.svg";
-import enemi from "../imgs/public-enemies.jpg";
+import varse from "../imgs/matrix.jpg";
 
-function IniP(){
-return(
-    <>
-<div className='itemsr1'>
-    <a href="/Inimigos-Publicos">
-              <img className='it1f' src={enemi}/>
+function Matr(){
+    return(
+        <>
+            <div className='itemsr1'>
+            <a href="/Matrix">
+              <img className='it1f' src={varse}/>
               <div className='des1'>
-                  <p className='tl1'>Inimigos Publicos</p>
+                  <p className='tl1'>Matrix</p>
                   <div className='imdb'>
                   <p>4,5</p>
                     <div className='sti'>
@@ -17,15 +17,13 @@ return(
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
-                    <img className='st2' src={mstar}/>
-                            </div>
-                        </div>
+                    <img className='st1' src={mstar}/>
                     </div>
-                    </a>
-                </div>
-            
-    </>
-)}
-
-export default IniP
-
+                  </div>
+              </div>
+              </a>
+            </div>
+        </>
+    )}
+    
+export default Matr

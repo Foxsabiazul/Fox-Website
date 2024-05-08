@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../FilmPages/VDVpage.css";
-import varse from "../imgs/V-for-Vendetta-.jpg";
+import "./VDVpage.css";
+import enemi from "../imgs/public-enemies.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
 import PFCfoto from "../imgs/user.svg";
@@ -38,22 +38,19 @@ function VDVpage(){
                  </div>
              <div className="PFcont">
                 <div className="PFcont1">
-                <div className="PFposter"><img className="PFposter2" src={varse}/></div>
+                <div className="PFposter"><img className="PFposter2" src={enemi}/></div>
                     <div className="PFcont2">
-                <div className="PFtitulo"><p className="PFtitulo2">V De Vingança</p></div>
-                <div className="PFdescricao"><p className="PFdescricao2">Em uma Inglaterra do futuro, onde está em vigor um regime totalitário, vive Evey Hammond (Natalie Portman).
-                     Ela é salva de uma situação de vida ou morte por um homem mascarado, conhecido apenas pelo codinome V (Hugo Weaving), que é extremamente
-                     carismático e habilidoso na arte do combate e da destruição. Ao convocar seus compatriotas a se rebelar contra a tirania e a opressão do
-                     governo inglês, V provoca uma verdadeira revolução. Enquanto Evey tenta saber mais sobre o passado de V, ela termina por descobrir quem é
-                      e seu papel no plano de seu salvador para trazer liberdade e justiça ao país.</p>
+                <div className="PFtitulo"><p className="PFtitulo2">Inimigos Públicos</p></div>
+                <div className="PFdescricao"><p className="PFdescricao2">John Dillinger (Johnny Depp) era um criminoso audacioso e violento, mas que atraía a opinião pública ao seu favor, principalmente, porque dizia retirar das instituições financeiras o dinheiro que elas roubavam do cidadão. Seus assaltos a bancos e fugas rápidas enlouqueciam a polícia que não tinha condições de enfrentá-lo. Assim, prender o assaltante tornou-se uma obsessão do então burocrata J. Edgar Hoover (Billy Crudup), que disposto a tudo para fortalecer o famoso F.B.I., coloca Dillinger como o inimigo público número um. Para ajudar em sua missão, Hoover contrata o policial Melvin Purvis (Christian Bale) e o deixa igualmente obcecado pela captura do bandido, que se apaixona por Billie Frechetti (Marion Cotillard) e acaba complicando a sua vida.</p>
                 </div>
                 </div>
                 </div>
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Ação</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="" target="_blank">Biografia</a>
+                    <a href="" target="_blank">Policial</a>
+                    <a href="" target="_blank">Drama</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

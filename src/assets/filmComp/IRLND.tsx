@@ -1,11 +1,12 @@
-import star from "../imgs/star-svgrepo-com 1.svg";
-import mstar from  "../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star-svgrepo-com 1.svg";
+import mstar from"../imgs/star-svgrepo-com 2.svg";
 import irish from "../imgs/irisman-movie.jpg";
 
 function IRLND(){
         return(
     <>
             <div className='itemsr1'>
+                <a href="/O-irlandes">
             <img className='it1f' src={irish}/>
             <div className='des1'>
                 <p className='tl1'>O irlândes</p>
@@ -20,6 +21,7 @@ function IRLND(){
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
             
 </>

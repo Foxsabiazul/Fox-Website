@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../FilmPages/VDVpage.css";
-import varse from "../imgs/V-for-Vendetta-.jpg";
+import "./VDVpage.css";
+import irish from "../imgs/irisman-movie.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
 import PFCfoto from "../imgs/user.svg";
@@ -38,22 +38,18 @@ function VDVpage(){
                  </div>
              <div className="PFcont">
                 <div className="PFcont1">
-                <div className="PFposter"><img className="PFposter2" src={varse}/></div>
+                <div className="PFposter"><img className="PFposter2" src={irish}/></div>
                     <div className="PFcont2">
-                <div className="PFtitulo"><p className="PFtitulo2">V De Vingança</p></div>
-                <div className="PFdescricao"><p className="PFdescricao2">Em uma Inglaterra do futuro, onde está em vigor um regime totalitário, vive Evey Hammond (Natalie Portman).
-                     Ela é salva de uma situação de vida ou morte por um homem mascarado, conhecido apenas pelo codinome V (Hugo Weaving), que é extremamente
-                     carismático e habilidoso na arte do combate e da destruição. Ao convocar seus compatriotas a se rebelar contra a tirania e a opressão do
-                     governo inglês, V provoca uma verdadeira revolução. Enquanto Evey tenta saber mais sobre o passado de V, ela termina por descobrir quem é
-                      e seu papel no plano de seu salvador para trazer liberdade e justiça ao país.</p>
+                <div className="PFtitulo"><p className="PFtitulo2">O Irlandês</p></div>
+                <div className="PFdescricao"><p className="PFdescricao2">Conhecido como "O Irlandês", Frank Sheeran (Robert De Niro) é um veterano de guerra cheio de condecorações que concilia a vida de caminhoneiro com a de assassino de aluguel número um da máfia. Promovido a líder sindical, ele torna-se o principal suspeito quando o mais famoso ex-presidente da associação desaparece misteriosamente.</p>
                 </div>
                 </div>
                 </div>
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Ação</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="" target="_blank">Biografia</a>
+                    <a href="" target="_blank">Suspence</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>
