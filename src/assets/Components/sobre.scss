@@ -5,20 +5,7 @@
     background-size: contain;
     display: flex;
     flex-direction: row;
-    font-family: 
-    -apple-system, 
-    BlinkMacSystemFont, 
-    avenir next, 
-    avenir, 
-    segoe ui,
-    helvetica neue, 
-    helvetica, 
-    Cantarell, 
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
-    sans-serif;
+    
   }
   
       .stt1{
@@ -36,21 +23,30 @@
     padding-left: 80px;
   }
        html { box-sizing: border-box; }
-       *, *::before , *::after { box-sizing: inherit; }
+       *, *::before, *::after { box-sizing: inherit; }
 
   .l-words{
     font-size: 45px;
-    color: #5c00a7;
+    color: #000000;
+    display: flex;
     padding-right: 400px;
     padding-left: 650px;
     filter: blur(1px) 
     contrast(25);
-
+    font-family: 
+    BlinkMacSystemFont, 
+    helvetica neue,  
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;  
   }
 
  .c-word{
     $speed: 8s;
     $wordCount:5;
+    animation: word $speed ease-in-out infinite;
     position: absolute;
     @for $i from 0 to $wordCount {
       &:nth-child( #{$i + 1}) {
@@ -73,7 +69,7 @@
 
   .stc2b{
     font-size: 45px;
-    color: #2c0247de;
+    color: #170247;
     padding-left: 50px;
   }
   

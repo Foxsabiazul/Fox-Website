@@ -10,13 +10,13 @@
 }
 
 .footer{
-    background: linear-gradient(#5d1a94, #300088);
+    background: linear-gradient(#220058, #000000);
     
   }
   
   .CPF{
     font-size: 17px;
-    background: linear-gradient(#020202, #d4f1ff00);
+    background: linear-gradient(#020202, #22005875);
     display: flex;
     align-items: center;
     justify-content: center;

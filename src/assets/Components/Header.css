@@ -60,7 +60,8 @@
     outline: none;
     border: none;
     cursor: pointer;
-    border-color: #6200ffab;
+    border-color: 1px solid #ffffff;
+
   }
   
   .ps1f{
@@ -68,13 +69,14 @@
     top: 25px;
     outline: none;
     align-items: center;
-    border-color: #37009e;
-    transition: 0.5s;
+    border-color: 1px solid #ffffff;
+    background-color: #ffffff;
   }
 
   .dropd{
     display: inline-block;
     text-decoration: none;
+    bleed: 1px;
   }
 
   .dropd .dropd-m a:hover{
@@ -89,7 +91,7 @@
 
   .dropd-m a{
     display: block;
-    color: black;
+    color: #8664ff;
   }
 
   .dropd:hover .dropd-m{
