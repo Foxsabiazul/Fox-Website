@@ -18,8 +18,8 @@ body{
     margin-left: 550px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#fffef5b2, #cccccc96, #ffffff34);
-    border: 1px solid  #0e6161 ;
+    background: linear-gradient(#fffdf0b2, #cccccc96, #ffffff34);
+    border: 1px solid  #0e6161;
     border-radius: 15px;
     
 }

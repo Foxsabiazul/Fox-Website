@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./VDVpage.css";
+import "./Avngerspage.css";
 import avg   from "../imgs/movies-avengers.jpeg";
 import axios from "axios";
 import Footer from "../Components/Footer";

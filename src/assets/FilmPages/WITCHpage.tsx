@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./VDVpage.css";
+import "./WICTHpage.css";
 import witch from "../imgs/a-bruxa-thewitch-poster.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

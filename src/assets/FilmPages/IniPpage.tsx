@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./VDVpage.css";
+import "./IRLNDpage.css";
 import enemi from "../imgs/public-enemies.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

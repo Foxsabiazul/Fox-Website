@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./VDVpage.css";
+import "./SRpage.css";
 import rastro from "../imgs/sem-rastro.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
