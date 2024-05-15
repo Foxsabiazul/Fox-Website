@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./Senvenpage.css";
+import "./VDVpage.css";
 import varse from "../imgs/V-for-Vendetta-.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

@@ -12,9 +12,6 @@ import IdM     from "../filmComp/IdM";
 import VDV     from "../filmComp/VDV";
 
 
-
-
-
 function Recomends(){
     return(
         <div className='recomends'>

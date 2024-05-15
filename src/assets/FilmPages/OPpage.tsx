@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./OPpage.css";
+import "./VDVpage.css";
 import arch from "../imgs/archive.jpeg";
 import axios from "axios";
 import Footer from "../Components/Footer";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./MARIOpage.css";
+import "./VDVpage.css";
 import mario from "../imgs/The_Super_Mario_Bros._Movie_poster.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

@@ -1,27 +1,46 @@
 body{
     background: linear-gradient( 45deg , 
-     #feffb8b6,
-     #3d02c7ab,
-     #00000057, 
-     #1199993b, 
-     #00000057);
+     #3877ff85,
+     #412db1, 
+     #0066667c, 
+     #0a0e24);
     background-size: 330%, 330%;
     animation: colors 50s ease-in-out infinite;
+}
+
+.FAcess{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+    background: linear-gradient(#fffef5b2, #cccccc96, #ffffff34);
+    border: 1px solid  #231a55 ;
+    border-radius: 15px;
 }
 
 .acess{
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 500px;
     height: 400px;
-    margin-top: 250px;
-    margin-left: 550px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#fffdf0b2, #cccccc96, #ffffff34);
-    border: 1px solid  #0e6161;
-    border-radius: 15px;
-    
+    margin-right: 50px;
+}
+
+.cadass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.InpA{
+    margin: 10px;
+}
+
+.InpC{
+    margin: 10px;
 }
 
 .at1{
@@ -30,6 +49,16 @@ body{
     margin-bottom: 50px;
     color: #006457c0;
     
+}
+
+.divisao{
+    display: flex;
+    align-items: center;
+}
+
+.divisao2{
+    border: 1px solid  #231a55 ;
+    height: 360px;
 }
 
 @keyframes colors {

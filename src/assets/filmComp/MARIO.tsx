@@ -15,7 +15,7 @@ function MARIO(){
                     <div className='sti'>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
-                    <img className='st2' src={mstar}/>
+                    <img className='st1' src={mstar}/>
                     </div>
                   </div>
               </div>

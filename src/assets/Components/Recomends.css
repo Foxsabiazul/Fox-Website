@@ -35,9 +35,9 @@
   
   .itemsr1{
     border-radius: 15px;
-    background-color: #181616ad;
+    background-color: #000000ad;
     margin: 15px;
-    border: 3px solid #1817177c;
+    border: 3px solid #0000007c;
     cursor: pointer;
   }
   
@@ -70,4 +70,5 @@
 
   .recomends{
     height: 1035px;
+    background-color: #00000094;
   }

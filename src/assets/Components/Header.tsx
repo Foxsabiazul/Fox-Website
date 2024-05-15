@@ -3,6 +3,7 @@ import logo from "../imgs/Simple Black Beige Men Style Typography Fashion Logo.p
 import lupa from "../imgs/pipoca-para-filmes.png"
 import { Link } from "react-router-dom";
 
+
     
 function Header(){
     return(
@@ -13,10 +14,29 @@ function Header(){
           <li className="dropd">
             <a href="">Gêneros</a>
             <div className="dropd-m">
-                <a href="/terror">Terror <li> 
-                  <Link to="/horror" className="pog"></Link></li></a>               
-                <a>Ação</a>
-                <a>Comédia</a>
+
+                <a href="/terror" className="horror">Terror <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/ação" className="shots">Ação <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/comédia" className="funny">Comédia <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/policial" className="cops">Policial <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/sci-fi" className="nerd">Ficção Científica <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/suspense" className="suspense">Suspense <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="/drama" className="drama">Drama <li>
+                  <Link to=""></Link></li></a>
+
+                <a href=""></a>
             </div>
           </li>
           <Link to="/movies" className='hb1'>Filmes</Link>

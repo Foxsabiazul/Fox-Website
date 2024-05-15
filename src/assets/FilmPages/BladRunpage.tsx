@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./BladRunpage.css";
+import "./VDVpage.css";
 import blru from '../imgs/81+aXKMlwoL._SL1400_.jpg';
 import axios from "axios";
 import Footer from "../Components/Footer";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./AsBpage.css";
+import "./VDVpage.css";
 import white from"../imgs/White_chicks.jpeg";
 import axios from "axios";
 import Footer from "../Components/Footer";
@@ -50,6 +50,7 @@ function VDVpage(){
                     <p className="PFgeneros2">Generos</p>
                     <a href="" target="_blank">Comédia</a>
                     <a href="" target="_blank">Policial</a>
+                    <a href="" target="_blank">Ação</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

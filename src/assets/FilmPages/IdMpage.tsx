@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "./IdMpage.css";
+import "./VDVpage.css";
 import ilha from "../imgs/ilha-do-medo.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

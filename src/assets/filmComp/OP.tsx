@@ -17,7 +17,7 @@ function OPt(){
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
-                <img className='st2' src={mstar}/>
+                <img className='st1' src={mstar}/>
                     </div>
                 </div>
             </div>

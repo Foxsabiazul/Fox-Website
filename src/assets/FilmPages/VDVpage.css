@@ -9,7 +9,7 @@ body{
 }
 
 .PFposter2{
-    width: 500px;
+    width:  500px;
     height: 600px;
 }
 
@@ -72,10 +72,10 @@ body{
 }
 
 .PFplayer{
-    border-right: #0000008a 1mm solid;
-    border-left:  #4c00ff 1mm groove;
+    border-right: #000000   1mm solid;
+    border-left:  #000000   1mm groove;
     border-bottom:#000000   1mm solid;
-    border-top:   #4c00ff   1mm groove;
+    border-top:   #000000   1mm groove;
     margin-left: 200px;
     margin-top: 50px;
     width: 1200px;
