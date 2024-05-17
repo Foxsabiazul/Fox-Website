@@ -92,29 +92,35 @@ function Loogin() {
     <div className="FAcess">
 
       <div className="acess">
+
           <div className='l2'>
+
           <h2 className="at1">Faça seu Login para Acessar ao Site</h2>
+
           <div className="InpA"><input onChange={handleUserOnchange} type="text" name="username" placeholder="Usuário" /></div>
+
           <div className="InpA"><input onChange={handlePasswordOnChange} type="password" name="password" placeholder="Senha" /></div>
+          
           </div>
-         <input onClick={handleOnclick} type="submit" value="Entrar" />
+
+         <input onClick={handleOnclick} type="submit" value="Entrar" className="btnent"/>
+
       </div>
 
       <div className="divisao"><div className="divisao2"></div></div>
 
       <div className="cadass">
-          <div className="c2">
+          
             <h2 className="at2">Cadastre-se Aqui</h2>
-            <div className="InpC"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
+            <div className="InpC1"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
             value={userName.length > 0 ? userName : ""}/></div>
-            <div className="InpC"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
+            <div className="InpC2"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
-            <div className="InpC"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
+            <div className="InpC3"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
             value={userKey.length > 0 ? userKey : ""}  /></div>
           </div>
-          <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastra" />
+          <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/>
       </div>
-    </div>
     </>
     )
 }
