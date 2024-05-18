@@ -1,5 +1,5 @@
-import star  from"../imgs/star-svgrepo-com 1.svg";
-import mstar from"../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star.svg";
+import mstar from"../imgs/meia-star.svg";
 import witch from "../imgs/a-bruxa-thewitch-poster.jpg";
 
 
@@ -19,7 +19,7 @@ function WITCH(){
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
-                    <img className='st1' src={mstar}/>
+                    <img className='st2' src={mstar}/>
                     </div>
                   </div>
               </div>

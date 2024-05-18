@@ -8,11 +8,11 @@ function Footer(){
     return(
         <div className='footer'>
             <div className="ft2">
-        <h3 className='ft'>Nossas Redes Sociais</h3>
+        <h3 className='ft'>Nossa redes Sociais</h3>
         <li className='li1'>
         <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={face}/> Facebook</a>
-        <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={insta}/>Instagram</a>
-        <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={git}/>  GitHub</a>
+        <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={insta}/> Instagram</a>
+        <a className='a1' href="https://www.facebook.com/?locale=pt_BR"><img className='icon2' src={git}/> GitHub</a>
         </li>
         </div>
         <div className='CPF'>

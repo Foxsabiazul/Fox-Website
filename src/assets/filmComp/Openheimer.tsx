@@ -1,4 +1,4 @@
-import star  from"../imgs/star-svgrepo-com 1.svg";
+import star  from"../imgs/star.svg";
 import open from "../imgs/Openheimer.jpg";
 
 function OPh(){

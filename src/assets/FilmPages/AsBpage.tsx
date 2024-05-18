@@ -50,7 +50,6 @@ function VDVpage(){
                     <p className="PFgeneros2">Generos</p>
                     <a href="" target="_blank">Comédia</a>
                     <a href="" target="_blank">Policial</a>
-                    <a href="" target="_blank">Ação</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

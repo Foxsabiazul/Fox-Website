@@ -1,5 +1,5 @@
-import star  from"../imgs/star-svgrepo-com 1.svg";
-import mstar from"../imgs/star-svgrepo-com 2.svg";
+import star  from"../imgs/star.svg";
+import mstar from"../imgs/meia-star.svg";
 import varse from "../imgs/matrix.jpg";
 
 function Matr(){

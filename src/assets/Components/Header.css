@@ -77,6 +77,8 @@
     display: inline-block;
     text-decoration: none;
     bleed: 1px;
+    position: relative;
+    z-index: -0;
   }
 
   .dropd .dropd-m a:hover{
@@ -101,5 +103,5 @@
   .header a {
     color: #470c94;
   }
-/*saçlkdçljlkfjkdsaljfklsjfdçlkjfsgjhrehgoiuerhguierwhe0-wq9i-  q09e0-219340-2134edslkvnxkcnvxmcvmsgvds010110101010101101001100101010101010101010101011001010101011001011*/
+
 
