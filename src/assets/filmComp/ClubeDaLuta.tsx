@@ -1,5 +1,4 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
 import photo from"../imgs/ClubeDaLutap.jpg";
 
 function ClubeDaLuta(){
@@ -10,15 +9,17 @@ function ClubeDaLuta(){
             <a href="/Clube-Da-Luta">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Clube Da Luta</p>
+                <p className='tl1'>Clube Da Luta&nbsp;&nbsp;</p>
     <div className='imdb'>
-                <p>4,5</p>
+                <p>4,4</p>
     <div className='sti'>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+    
+     
+
                 </div>
             </div>
         </div>

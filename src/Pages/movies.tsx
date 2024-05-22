@@ -10,6 +10,12 @@ import OPt from "../assets/filmComp/OP";
 import OPh from "../assets/filmComp/Openheimer";
 import SRs from "../assets/filmComp/SR";
 import Footer from "../assets/Components/Footer";
+import VeloresEF4 from "../assets/filmComp/VeloresEF4";
+import VeloresEF5 from "../assets/filmComp/VeloresEF5";
+import VelozesEF4 from "../assets/filmComp/VeloresEF4";
+import VelozesEF5 from "../assets/filmComp/VeloresEF5";
+import VelozesEF6 from "../assets/filmComp/VeloresEF6";
+import VelozesEF7 from "../assets/filmComp/VelozesEF7";
 
 function movies(){
     return(
@@ -29,10 +35,10 @@ function movies(){
            <OPt/>
            <OPh/>
            <SRs/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
+           <VelozesEF4/>
+           <VelozesEF5/>
+           <VelozesEF6/>
+           <VelozesEF7/>
            <VDV/>
            <VDV/>
            <VDV/>

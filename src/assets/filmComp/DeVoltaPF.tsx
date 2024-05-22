@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import photo from"../imgs/DeVoltaPFp.webp";
 
 function DeVoltaPF(){
@@ -10,7 +10,7 @@ function DeVoltaPF(){
             <a href="/De-Volta-para-o-Futuro">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>De Volta para o Futuro</p>
+                <p className='tl1'>De Volta para o Futuro&nbsp;&nbsp;&nbsp;</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -18,7 +18,10 @@ function DeVoltaPF(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
+
+
+            
                 </div>
             </div>
         </div>

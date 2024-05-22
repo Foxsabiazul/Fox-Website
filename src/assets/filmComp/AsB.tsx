@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import white from"../imgs/White_chicks.jpeg";
 
 function AsB(){
@@ -10,7 +10,7 @@ function AsB(){
             <a href="/As-Branquelas">
             <img className='it1f' src={white}/>
     <div className='des1'>
-                <p className='tl1'>As Branquelas</p>
+                <div className='tl1'>As Branquelas</div>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -18,7 +18,9 @@ function AsB(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
+
+
                 </div>
             </div>
         </div>

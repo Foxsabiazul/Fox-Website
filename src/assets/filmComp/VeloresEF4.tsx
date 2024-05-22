@@ -1,8 +1,8 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import photo from"../imgs/VEF4p.webp";
 
-function VeloresEF4(){
+function VelozesEF4(){
     return(
     <>
 
@@ -10,7 +10,7 @@ function VeloresEF4(){
             <a href="/Velozes-&-Furiosos4">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Velozes & Furiosos 4</p>
+                <p className='tl1'>Velozes & Furiosos 4&nbsp;&nbsp;&nbsp;</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -18,7 +18,10 @@ function VeloresEF4(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
+
+
+
                 </div>
             </div>
         </div>
@@ -28,4 +31,4 @@ function VeloresEF4(){
 
 )}
 
-export default VeloresEF4
+export default VelozesEF4

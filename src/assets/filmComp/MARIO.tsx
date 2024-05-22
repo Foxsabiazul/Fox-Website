@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import mario from "../imgs/The_Super_Mario_Bros._Movie_poster.jpg";
 
 function MARIO(){
@@ -9,13 +9,15 @@ function MARIO(){
       <a href="/Super-Mario">
               <img className='it1f' src={mario}/>
               <div className='des1'>
-                  <p className='tl1'>Super Mario Bros</p>
+                  <p className='tl1'>Super Mario Bros&nbsp;&nbsp;&nbsp;</p>
                   <div className='imdb'>
                   <p>4,3</p>
                     <div className='sti'>
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
-                    <img className='st2' src={mstar}/>
+                    <img className='st1' src={mstar}/>
+
+                    
                     </div>
                   </div>
               </div>

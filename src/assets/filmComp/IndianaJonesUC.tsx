@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import photo from"../imgs/IJUCp.jpg";
 
 function IndianaJonesUC(){
@@ -10,15 +10,16 @@ function IndianaJonesUC(){
             <a href="/Indiana-Jones-e-a-Ultima-Cruzada">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Indiana Jones e a Última Cruzada</p>
+                <p className='tl1'>Indiana Jones e a Última Cruzada&nbsp;&nbsp;&nbsp;</p>
     <div className='imdb'>
-                <p>4,5</p>
+                <p>5,5</p>
     <div className='sti'>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={star}/>
+            
                 </div>
             </div>
         </div>

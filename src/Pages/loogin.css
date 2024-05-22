@@ -61,7 +61,7 @@ body{
     margin-right: 0,5px;
     padding: left;
     color: #000000;
-    background-color:#ffffff;
+    background-color:#f8f8f8; 
     border-color: #000f61;
     inline-size: 10%;
     width: 150px;
@@ -130,6 +130,7 @@ body{
     margin-bottom: 50px;
     padding-left: 15px;
     color:  #000000;
+
 }
 
 .at1{
@@ -147,7 +148,7 @@ body{
     width: 10%;
     margin-inline-end:05px;
     color: #000000;
-    background-color: #ffffff;
+    background-color:#f8f8f8;
     border-color: #00635eb2;
     inline-size: 0,9px;
     position: block;

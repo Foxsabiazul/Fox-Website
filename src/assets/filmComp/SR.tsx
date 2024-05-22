@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import rastro from "../imgs/sem-rastro.jpg";
 
 function SRs(){
@@ -9,7 +9,7 @@ function SRs(){
             <a href="/Sem-Rastros">
             <img className='it1f' src={rastro}/>
         <div className='des1'>
-                <p className='tl1'>Sem Rastros</p>
+                <p className='tl1'>Sem Rastros&nbsp;&nbsp;&nbsp;</p>
         <div className='imdb'>
                   <p>4,5</p>
         <div className='sti'>
@@ -18,6 +18,10 @@ function SRs(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={mstar}/>
+
+    
+
+
                     </div>
                 </div>
             </div>

@@ -1,8 +1,8 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import photo from"../imgs/VEFDTp.jpg";
 
-function VeloresEFDT(){
+function VelozesEFDT(){
     return(
     <>
 
@@ -10,7 +10,7 @@ function VeloresEFDT(){
             <a href="/Velozes-&-Furiosos:Desafio-em-Toquio">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Velozes & Furiosos: Desafio em Tóquio</p>
+                <p className='tl1'>Velozes & Furiosos: Desafio em Tóquio&nbsp;&nbsp;&nbsp;</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -18,7 +18,7 @@ function VeloresEFDT(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
                 </div>
             </div>
         </div>
@@ -28,4 +28,4 @@ function VeloresEFDT(){
 
 )}
 
-export default VeloresEFDT
+export default VelozesEFDT

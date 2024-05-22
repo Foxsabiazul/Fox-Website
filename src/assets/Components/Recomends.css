@@ -10,8 +10,24 @@
   .tl1{
    font-size: 20px;
    padding-left: 70px;
-   color: #5a47ff;
+   font-family: 'Poppins', sans-serif;
+   color: #c7c7c7;
+   display: block;
    line-break: loose;
+   white-space: nowrap;
+   animation: 35s slide infinite linear;
+  }
+  .tl1 :hover{
+    animation-play-state:paused;
+  }
+  
+   @keyframes slide{
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-100);
+    }
   }
   
   .des1{

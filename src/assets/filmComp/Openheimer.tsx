@@ -1,4 +1,5 @@
-import star  from"../imgs/star.svg";
+import star  from "../imgs/starating_1.png";
+
 import open from "../imgs/Openheimer.jpg";
 
 function OPh(){
@@ -9,7 +10,7 @@ function OPh(){
             <a href="/Openheimer">
             <img className='it1f' src={open}/>
         <div className='des1'>
-                <p className='tl1'>Openheimer</p>
+                <p className='tl1'>Openheimer&nbsp;&nbsp;&nbsp;</p>
         <div className='imdb'>
                 <p>4,4</p>
         <div className='sti'>
@@ -17,6 +18,8 @@ function OPh(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
+
+
                 </div>
             </div>
         </div>

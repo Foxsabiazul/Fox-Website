@@ -14,7 +14,7 @@ export interface User{
 
   
 
-function VeloresEF5page(){
+function VelozesEF5page(){
 
     const [users, setUsers] = useState<User[]>([]);
 
@@ -79,4 +79,4 @@ function VeloresEF5page(){
      </>
 )}
 
-export default VeloresEF5page
+export default VelozesEF5page

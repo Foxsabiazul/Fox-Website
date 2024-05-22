@@ -1,5 +1,5 @@
-import star  from"../imgs/star.svg";
-import mstar from"../imgs/meia-star.svg";
+import star  from "../imgs/starating_1.png";
+import mstar from "../imgs/stars.png";
 import photo from"../imgs/Vef7.webp";
 
 function VelozesEF7(){
@@ -10,7 +10,7 @@ function VelozesEF7(){
             <a href="/Velozes-&-Furiosos7">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Velozes & Furiosos 7</p>
+                <p className='tl1'>Velozes & Furiosos 7&nbsp;&nbsp;&nbsp;</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -18,7 +18,7 @@ function VelozesEF7(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
                 </div>
             </div>
         </div>
