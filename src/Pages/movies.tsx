@@ -41,9 +41,11 @@ function movies(){
            <VDV/>
            <VDV/>
         </div>
+
         <div className="PMpP">
             <p>Paginas: <a href="/movies">1</a>,<a href="/movies-2">2</a>,<a href="/movies-3">3</a>...</p>
         </div>
+        
         <div className="PMfooter">
             <Footer/>
         </div>

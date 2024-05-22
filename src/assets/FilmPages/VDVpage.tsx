@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import "../filmPages/VDVpage.css";
+import "./VDVpage.css";
+import "../FilmPages/VDVpage.css"
 import varse from "../imgs/V-for-Vendetta-.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";

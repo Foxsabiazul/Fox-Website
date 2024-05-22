@@ -1,15 +1,15 @@
 import "./Recomends.css"
-import OPh from "../filmComp/Openheimer";
-import WITCH from "../filmComp/WITCH";
-import MARIO from "../filmComp/MARIO";
-import SRs from "../filmComp/SR";
-import OPt from "../filmComp/OP";
-import AsB from "../filmComp/AsB";
+import OPh    from "../filmComp/Openheimer";
+import WITCH  from "../filmComp/WITCH";
+import MARIO  from "../filmComp/MARIO";
+import SRs    from "../filmComp/SR";
+import OPt    from "../filmComp/OP";
+import AsB    from "../filmComp/AsB";
 import Avngrs from "../filmComp/Avngrs";
-import IRLND from "../filmComp/IRLND";
-import IniP from "../filmComp/IniP";
-import IdM from "../filmComp/IdM";
-import VDV from "../filmComp/VDV";
+import IRLND  from "../filmComp/IRLND";
+import IniP   from "../filmComp/IniP";
+import VDV    from "../filmComp/VDV";
+import IdM    from "../filmComp/IdM";
 
 
 

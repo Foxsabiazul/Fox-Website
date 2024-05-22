@@ -2,6 +2,7 @@ import "./loogin.css"
 import { ChangeEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
+import eye from "../assets/imgs/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg"
 
 export interface Loogin{
   id:number;
@@ -112,12 +113,19 @@ function Loogin() {
       <div className="cadass">
           
             <h2 className="at2">Cadastre-se Aqui</h2>
+
             <div className="InpC1"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
             value={userName.length > 0 ? userName : ""}/></div>
+
             <div className="InpC2"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
+
             <div className="InpC3"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
-            value={userKey.length > 0 ? userKey : ""}  /></div>
+            value={userKey.length > 0 ? userKey : ""} /></div>
+
+            <img src={eye} className="eyedress"/>
+            
+
           </div>
           <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/>
       </div>
