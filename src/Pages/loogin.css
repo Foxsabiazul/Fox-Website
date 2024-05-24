@@ -16,7 +16,7 @@ body{
     margin-top: 10px;
     margin-left: 350px;
     background: linear-gradient(#fdfdfdb2, #c0c0c062, #ffffff1a);
-    border: 2px solid  #0000009f;
+    border: 2px solid #0000009f;
     border-radius: 15px;
 
 }
@@ -48,25 +48,29 @@ body{
 
     position: relative;
     right: 0px;
-    top: 0cm;    
-    left: 20svi;
+    top: -031px;    
+    left: +4.10svi;
     transform: translate(-50%);
     cursor: pointer;
 }
 
+input[type="password"] {
+    padding-left: 3px;
+    border-top-style: inset;
+}
+
 .btncass{
 
-    margin-bottom:0,6px;
-    margin-top:   08cm;
-    margin-right: 0,5px;
-    padding: left;
     color: #000000;
     background-color:#f8f8f8; 
     border-color: #000f61;
-    inline-size: 10%;
+    
+
+}
+
+.btncass2{
     width: 150px;
     height: 30px;
-
 }
 
 .InpC1 {
@@ -86,10 +90,10 @@ body{
 .InpC2{
 
     display: auto;
-    margin:  2px;
+    margin: 2px;
     padding: 5px;
-    height:  1cm;
-    width:   1%;
+    height: 1cm;
+    width: 1%;
     inline-size: 0,9px;
     height: 34px;
 

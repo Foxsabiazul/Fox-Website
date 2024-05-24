@@ -2,7 +2,7 @@ import star  from "../imgs/starating_1.png";
 import mstar from "../imgs/stars.png";
 import photo from"../imgs/VEFMp.webp";
 
-function VeloresEFM(){
+function VelozesEFM(){
     return(
     <>
 
@@ -28,4 +28,4 @@ function VeloresEFM(){
 
 )}
 
-export default VeloresEFM
+export default VelozesEFM

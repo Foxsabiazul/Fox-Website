@@ -10,12 +10,22 @@ import OPt from "../assets/filmComp/OP";
 import OPh from "../assets/filmComp/Openheimer";
 import SRs from "../assets/filmComp/SR";
 import Footer from "../assets/Components/Footer";
-import VeloresEF4 from "../assets/filmComp/VeloresEF4";
-import VeloresEF5 from "../assets/filmComp/VeloresEF5";
-import VelozesEF4 from "../assets/filmComp/VeloresEF4";
-import VelozesEF5 from "../assets/filmComp/VeloresEF5";
-import VelozesEF6 from "../assets/filmComp/VeloresEF6";
+import VelozesEF4 from "../assets/filmComp/VelozesEF4";
+import VelozesEF5 from "../assets/filmComp/VelozesEF5";
+import VelozesEF6 from "../assets/filmComp/VelozesEF6";
 import VelozesEF7 from "../assets/filmComp/VelozesEF7";
+import VelozesEF8 from "../assets/filmComp/VelozesEF8";
+import VelozesEF9 from "../assets/filmComp/VelozesEF9";
+import VelozesEF10page from "../assets/FilmPages/VelozesEF10page";
+import SenhorDosADTpage from "../assets/FilmPages/SenhorDosADTpage";
+import StarWars1page from "../assets/FilmPages/StarWars1page";
+import Shrek2page from "../assets/FilmPages/Shrek2page";
+import PulpFict from "../assets/filmComp/PulpFict";
+import IndianaJonesARD from "../assets/filmComp/IndianaJonesARD";
+import DeVoltaPF from "../assets/filmComp/DeVoltaPF";
+import Seven from "../assets/filmComp/IndianaJonesRCC";
+import ClubeDaLuta from "../assets/filmComp/ClubeDaLuta";
+import BrilhoEDSL from "../assets/filmComp/BrilhoEDSL";
 
 function movies(){
     return(
@@ -36,16 +46,16 @@ function movies(){
            <OPh/>
            <SRs/>
            <VelozesEF4/>
-           <VelozesEF5/>
-           <VelozesEF6/>
+           <BrilhoEDSL/>
+           <StarWars1page/>
            <VelozesEF7/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
-           <VDV/>
+           <Shrek2page/>
+           <PulpFict/>
+           <SenhorDosADTpage/>
+           <IndianaJonesARD/>
+           <DeVoltaPF/>
+           <Seven/>
+           <ClubeDaLuta/>
         </div>
 
         <div className="PMpP">

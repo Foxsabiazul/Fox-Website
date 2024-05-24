@@ -83,7 +83,23 @@ function Loogin() {
   const handleOnInputkey = (e: ChangeEvent<HTMLInputElement>) => {
     setUserKey(e.target.value);
   };
+  const passwordVisibilityButton = document.querySelector(".password-visibility")
+  const passwordInput = document.querySelector('input[type="password"]') 
+  passwordVisibilityButton?.addEventListener("click", () => {
+    const newIconText = passwordVisibilityButton.textContent == "visibility" 
+    ? "visibility_off" 
+    : "visibility"
 
+    passwordVisibilityButton.textContent = newIconText 
+
+
+    const newType = passwordInput?.getAttribute("type") == 'passsword'
+    ? "text"
+    : "password"
+
+    passwordInput?.setAttribute("type", newType)
+
+  });
 
 
 
@@ -114,6 +130,7 @@ function Loogin() {
           
             <h2 className="at2">Cadastre-se Aqui</h2>
 
+            <div className="cadass2">
             <div className="InpC1"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
             value={userName.length > 0 ? userName : ""}/></div>
 
@@ -122,12 +139,15 @@ function Loogin() {
 
             <div className="InpC3"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
             value={userKey.length > 0 ? userKey : ""} /></div>
+          <span className="password-visibility"><img src={eye} alt="" /></span>
+            </div>
 
-            <img src={eye} className="eyedress"/>
+
+            <div className="btncass2"><input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/></div>
             
 
           </div>
-          <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/>
+          
       </div>
     </>
     )
