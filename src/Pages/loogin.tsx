@@ -2,7 +2,8 @@ import "./loogin.css"
 import { ChangeEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
-import eye from "../assets/imgs/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+import eye   from  "../assets/imgs/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+
 
 export interface Loogin{
   id:number;
@@ -83,25 +84,15 @@ function Loogin() {
   const handleOnInputkey = (e: ChangeEvent<HTMLInputElement>) => {
     setUserKey(e.target.value);
   };
-  const passwordVisibilityButton = document.querySelector(".password-visibility")
-  const passwordInput = document.querySelector('input[type="password"]') 
-  passwordVisibilityButton?.addEventListener("click", () => {
-    const newIconText = passwordVisibilityButton.textContent == "visibility" 
-    ? "visibility_off" 
-    : "visibility"
 
-    passwordVisibilityButton.textContent = newIconText 
-
-
-    const newType = passwordInput?.getAttribute("type") == 'passsword'
-    ? "text"
-    : "password"
-
-    passwordInput?.setAttribute("type", newType)
-
-  });
-
-
+  const [visibility, setVisibility] = useState<string>("password")
+  const handleVisibility = () => {
+    if(visibility === "password"){
+      setVisibility("text")
+    }else{
+      setVisibility("password")
+    }
+  }
 
     return(
 
@@ -137,10 +128,11 @@ function Loogin() {
             <div className="InpC2"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
 
-            <div className="InpC3"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
+            <div className="InpC3"><input type={visibility} placeholder="Insira sua Senha" onChange={handleOnInputkey} className='ipt'
             value={userKey.length > 0 ? userKey : ""} /></div>
-          <span className="password-visibility"><img src={eye} alt="" /></span>
-            </div>
+            
+              <span className="eyedress" onClick={handleVisibility}><img src={eye} alt="" /></span>
+              </div>
 
 
             <div className="btncass2"><input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/></div>

@@ -1,6 +1,6 @@
   .sobre{
-    background-image: url(../imgs/11dbd31bf43e742af6bfe7f6ea10f983.jpg);
-    background-repeat: repeat;
+    background-image: url(../imgs/relievo-rotating-purple-swirl-wallpaper.jpg);
+    background-repeat: repeat-x;
     background-size: contain;
     display: flex;
     flex-direction: row;
@@ -8,8 +8,8 @@
   }
   
   .stt1{
-    color: #7300ff8f;
-    text-shadow: 2px 2px #000000;
+    color: #00000049;
+    text-shadow: 2px 2px #ffffff46;
   }
   
   .st1s{
@@ -35,7 +35,7 @@
     roboto,
     noto,
     arial,
-    sans-serif;  
+    sans-serif;   
   }
 
   .c-word{
@@ -43,9 +43,10 @@
     $wordCount:5;
     animation: word $speed ease-in-out infinite;
     position: absolute;
-    color: #000000;
+    color: #ffffff;
     height: 200px;
-    padding-left: 50px;
+    padding-left: 1000px;
+    
     padding-top: 20px;
     font-size: 45px;
     display: flex;

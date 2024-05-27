@@ -23,13 +23,13 @@
  }
 
 .footer{
-    background: linear-gradient(#1f0029, #0000009f);
+    background: linear-gradient(#3e0085a8, #000000);
     
   }
   
   .CPF{
     font-size: 17px;
-    background: linear-gradient(#000000c2, #2500337a);
+    background: linear-gradient(#000000c2, #38004df5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,11 +51,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
-    color: #6127ff;
+    color: #000000;
   }
   
   a:link, a:hover{
     text-decoration: none;
+    transition: 2s;
   }
   
   .icon2{
@@ -68,6 +69,7 @@
     font-size: 20px;
     padding-left: 100px;
     padding-top: 10px;
+    color: #f0f8ffd8;
   }
 
   .ft2{

@@ -26,6 +26,10 @@ import DeVoltaPF from "../assets/filmComp/DeVoltaPF";
 import Seven from "../assets/filmComp/IndianaJonesRCC";
 import ClubeDaLuta from "../assets/filmComp/ClubeDaLuta";
 import BrilhoEDSL from "../assets/filmComp/BrilhoEDSL";
+import SonhodL from "../assets/filmComp/SonhodL";
+import OSilencioDI from "../assets/filmComp/OSilencioDI";
+import OsSuspeitos from "../assets/filmComp/OsSuspeitos";
+import IndianaJonesTP from "../assets/filmComp/IndianaJonesTP";
 
 function movies(){
     return(
@@ -47,14 +51,13 @@ function movies(){
            <SRs/>
            <VelozesEF4/>
            <BrilhoEDSL/>
-           <StarWars1page/>
            <VelozesEF7/>
-           <Shrek2page/>
+           <OSilencioDI/>
            <PulpFict/>
-           <SenhorDosADTpage/>
            <IndianaJonesARD/>
            <DeVoltaPF/>
            <Seven/>
+           <IndianaJonesTP/>
            <ClubeDaLuta/>
         </div>
 

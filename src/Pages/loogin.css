@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     width: 560px;
     height: 410px;
+
     justify-content: center;
     align-items: center;
     margin-right: 50px;
@@ -49,15 +50,12 @@ body{
     position: relative;
     right: 0px;
     top: -031px;    
-    left: +4.10svi;
+    left: +12.53svi;
     transform: translate(-50%);
+    display: flex;
     cursor: pointer;
 }
 
-input[type="password"] {
-    padding-left: 3px;
-    border-top-style: inset;
-}
 
 .btncass{
 
@@ -69,11 +67,12 @@ input[type="password"] {
 }
 
 .btncass2{
+
     width: 150px;
     height: 30px;
 }
 
-.InpC1 {
+.InpC1{
 
     display: flex;
     margin:2px;
@@ -118,6 +117,7 @@ input[type="password"] {
     margin-bottom: 50px;
     height: fit-content;
     margin: 10px;
+    
 
 }
 
