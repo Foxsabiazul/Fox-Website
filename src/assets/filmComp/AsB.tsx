@@ -1,6 +1,7 @@
 import star  from "../imgs/starating_1.png";
 import mstar from "../imgs/stars.png";
 import white from"../imgs/White_chicks.jpeg";
+import "./AsB.css";
 
 function AsB(){
     return(
