@@ -9,7 +9,7 @@ function SRs(){
             <a href="/Sem-Rastros">
             <img className='it1f' src={rastro}/>
         <div className='des1'>
-                <p className='tl1'>Sem Rastros&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Sem Rastros</p>
         <div className='imdb'>
                   <p>4,5</p>
         <div className='sti'>

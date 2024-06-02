@@ -10,7 +10,7 @@ function IndianaJonesTP(){
             <a href="/Seven-Os-Sete-Crimes-Capitais">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Indiana Jones e o Templo da Perdição&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Indiana Jones e o Templo da Perdição</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

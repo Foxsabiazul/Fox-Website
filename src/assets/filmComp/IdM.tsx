@@ -9,7 +9,7 @@ return(
             <a href="/Ilha-do-Medo">
                 <img className='it1f' src={ilha}/>
     <div className='des1'>
-                    <p className='tl1'>Ilha do Medo&nbsp;&nbsp;&nbsp;</p>
+                    <p className='tl1'>Ilha do Medo</p>
     <div className='imdb'>
                     <p>4,3</p>
     <div className='sti'>

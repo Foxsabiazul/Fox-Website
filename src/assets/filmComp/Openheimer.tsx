@@ -10,7 +10,7 @@ function OPh(){
             <a href="/Openheimer">
             <img className='it1f' src={open}/>
         <div className='des1'>
-                <p className='tl1'>Openheimer&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Openheimer</p>
         <div className='imdb'>
                 <p>4,4</p>
         <div className='sti'>
@@ -27,7 +27,7 @@ function OPh(){
     </div> 
 </li>
 </>    
-)};
+)}
 
 export default OPh
    

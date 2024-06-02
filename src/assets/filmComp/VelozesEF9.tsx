@@ -10,7 +10,7 @@ function VelozesEF9(){
             <a href="/Velozes-&-Furiosos9">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Velozes & Furiosos 9&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Velozes & Furiosos 9</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

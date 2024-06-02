@@ -9,7 +9,7 @@ function IRLND(){
                 <a href="/O-irlandes">
             <img className='it1f' src={irish}/>
             <div className='des1'>
-                <p className='tl1'>O irlândes&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>O irlândes</p>
             <div className='imdb'>
                 <p>4,5</p>
             <div className='sti'>

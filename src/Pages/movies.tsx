@@ -11,24 +11,14 @@ import OPh from "../assets/filmComp/Openheimer";
 import SRs from "../assets/filmComp/SR";
 import Footer from "../assets/Components/Footer";
 import VelozesEF4 from "../assets/filmComp/VelozesEF4";
-import VelozesEF5 from "../assets/filmComp/VelozesEF5";
-import VelozesEF6 from "../assets/filmComp/VelozesEF6";
 import VelozesEF7 from "../assets/filmComp/VelozesEF7";
-import VelozesEF8 from "../assets/filmComp/VelozesEF8";
-import VelozesEF9 from "../assets/filmComp/VelozesEF9";
-import VelozesEF10page from "../assets/FilmPages/VelozesEF10page";
-import SenhorDosADTpage from "../assets/FilmPages/SenhorDosADTpage";
-import StarWars1page from "../assets/FilmPages/StarWars1page";
-import Shrek2page from "../assets/FilmPages/Shrek2page";
 import PulpFict from "../assets/filmComp/PulpFict";
 import IndianaJonesARD from "../assets/filmComp/IndianaJonesARD";
 import DeVoltaPF from "../assets/filmComp/DeVoltaPF";
 import Seven from "../assets/filmComp/IndianaJonesRCC";
 import ClubeDaLuta from "../assets/filmComp/ClubeDaLuta";
 import BrilhoEDSL from "../assets/filmComp/BrilhoEDSL";
-import SonhodL from "../assets/filmComp/SonhodL";
 import OSilencioDI from "../assets/filmComp/OSilencioDI";
-import OsSuspeitos from "../assets/filmComp/OsSuspeitos";
 import IndianaJonesTP from "../assets/filmComp/IndianaJonesTP";
 
 function movies(){
@@ -62,7 +52,7 @@ function movies(){
         </div>
 
         <div className="PMpP">
-            <p>Paginas: <a href="/movies">1</a>,<a href="/movies-2">2</a>,<a href="/movies-3">3</a>...</p>
+            <p>Paginas: <a href="/movies">1</a>₪<a href="/movies-2">2</a>₪<a href="/movies-3">3</a>...</p>
         </div>
         
         <div className="PMfooter">

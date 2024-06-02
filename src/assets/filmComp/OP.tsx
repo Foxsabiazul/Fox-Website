@@ -9,7 +9,7 @@ function OPt(){
             <a href="/O-Prototipo">
                 <img className='it1f' src={arch}/>
         <div className='des1'>
-                    <p className='tl1'>O Protótipo&nbsp;&nbsp;&nbsp;</p>
+                    <p className='tl1'>O Protótipo</p>
         <div className='imdb'>
                     <p>4,5</p>
         <div className='sti'>

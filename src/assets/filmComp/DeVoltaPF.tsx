@@ -10,7 +10,7 @@ function DeVoltaPF(){
             <a href="/De-Volta-para-o-Futuro">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>De Volta para o Futuro&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>De Volta para o Futuro</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

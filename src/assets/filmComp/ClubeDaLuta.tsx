@@ -9,7 +9,7 @@ function ClubeDaLuta(){
             <a href="/Clube-Da-Luta">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Clube Da Luta&nbsp;&nbsp;</p>
+                <p className='tl1'>Clube Da Luta</p>
     <div className='imdb'>
                 <p>4,4</p>
     <div className='sti'>

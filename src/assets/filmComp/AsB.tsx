@@ -11,7 +11,9 @@ function AsB(){
             <a href="/As-Branquelas">
             <img className='it1f' src={white}/>
     <div className='des1'>
-                <div className='tl1'>As Branquelas</div>
+        <section>
+                <p className='marquee-text'>As Branquelas</p>
+        </section>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

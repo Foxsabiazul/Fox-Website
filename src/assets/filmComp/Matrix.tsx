@@ -9,7 +9,7 @@ function Matr(){
             <a href="/Matrix">
               <img className='it1f' src={varse}/>
               <div className='des1'>
-                  <p className='tl1'>Matrix&nbsp;&nbsp;&nbsp;</p>
+                  <p className='tl1'>Matrix</p>
                   <div className='imdb'>
                   <p>4,5</p>
                     <div className='sti'>

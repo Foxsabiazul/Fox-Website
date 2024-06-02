@@ -10,7 +10,7 @@ function IndianaJonesARD(){
             <a href="/Indiana-Jones-e-A-Reliquia-do-Destino">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Indiana Jones e A Relíquia do Destino&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Indiana Jones e A Relíquia do Destino</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

@@ -9,7 +9,7 @@ function Avngrs(){
         <a href="/Vingadores-Guerra-Infinita">
             <img className='it1f' src={avg}/>
     <div className='des1'>
-                <p className='tl1'>Vingadores&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Vingadores</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

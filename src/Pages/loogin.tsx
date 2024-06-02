@@ -122,10 +122,10 @@ function Loogin() {
             <h2 className="at2">Cadastre-se Aqui</h2>
 
             <div className="cadass2">
-            <div className="InpC1"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
+            <div className="InpC1"><input type="text" placeholder="Novo Usuário: nome" onChange={handleOnInputName} className='ipt'
             value={userName.length > 0 ? userName : ""}/></div>
 
-            <div className="InpC2"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
+            <div className="InpC2"><input type="text" placeholder="Informe Seu Email" onChange={handleOnInputEmail} className='ipt'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
 
             <div className="InpC3"><input type={visibility} placeholder="Insira sua Senha" onChange={handleOnInputkey} className='ipt'

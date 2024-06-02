@@ -10,7 +10,7 @@ function BLR (){
         <a href="/Blade-Runner-2049">
                 <img className='it1f' src={blru}/>
     <div className='des1'>
-                    <p className='tl1'>Blade Runner&nbsp;&nbsp;&nbsp;</p>
+                    <p className='tl1'>Blade Runner</p>
     <div className='imdb'>
                     <p>4,5</p>
     <div className='sti'>

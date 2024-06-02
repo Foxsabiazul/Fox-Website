@@ -10,7 +10,7 @@ function VelozesEF5(){
             <a href="/Velozes-&-Furiosos5:Operacao-Rio">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Velozes & Furiosos 5: Operação Rio&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Velozes & Furiosos 5: Operação Rio</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

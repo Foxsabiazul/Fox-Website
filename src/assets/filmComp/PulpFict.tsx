@@ -10,7 +10,7 @@ function PulpFict(){
             <a href="/Pulp-Fiction-Tempo-de-Violencia">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Pulp Fiction - Tempo de Violência&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Pulp Fiction - Tempo de Violência</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>

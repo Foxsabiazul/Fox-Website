@@ -9,7 +9,7 @@ function MARIO(){
       <a href="/Super-Mario">
               <img className='it1f' src={mario}/>
               <div className='des1'>
-                  <p className='tl1'>Super Mario Bros&nbsp;&nbsp;&nbsp;</p>
+                  <p className='tl1'>Super Mario Bros</p>
                   <div className='imdb'>
                   <p>4,3</p>
                     <div className='sti'>

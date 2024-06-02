@@ -10,7 +10,7 @@ function Seven(){
             <a href="/Indiana-Jones-e-o-Reino-da-Caveira-de-Cristal">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Indiana Jones e o Reino da Caveira de Cristal&nbsp;&nbsp;&nbsp;</p>
+                <p className='tl1'>Indiana Jones e o Reino da Caveira de Cristal</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
