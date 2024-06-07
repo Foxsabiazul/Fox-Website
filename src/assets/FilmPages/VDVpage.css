@@ -2,6 +2,8 @@ body{
    display: flex;
    padding: 0px;
    margin: 0px;
+   background-color: #000000;
+   color: #000000;
 }
 
 .PFposter{
@@ -27,15 +29,15 @@ body{
 }
 
 .PFdescricao{
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius: 50px;
     justify-content: center;
     width: 1300px;
     height: 400px;
-    color: black;
+    color: #000000ef;
     text-align: center;
     margin-top: 80px;  
-    background-color: rgba(195, 166, 223, 0.11);
+    background-color: #ffffff2d;
 }
 
 .PFdescricao2{
@@ -51,27 +53,29 @@ body{
     margin-top: 50px;
     justify-content: center;
     display: flex;
+    
 }
 
 .PFgeneros a{
     font-style: none;
-    color:rgb(37, 36, 36);
+    color:#000000;
 }
 
 .PFgeneros{
-    border: black 1px solid;
+    border: #000000 1px solid;
     display: flex;
     flex-direction: column;
     width: 250px;
     border-radius: 12px;
     margin-left: 100px;
-    background-color: rgba(196, 166, 223, 0.329);
+    background-color: #00000088;
     align-items: center;
     height: 200px;
+    color: #008648;
 }
 
 .PFplayer{
-    border:  black 1px solid;
+    border:  #000000 1px solid;
     margin-left: 200px;
     margin-top: 50px;
     width: 1200px;
@@ -90,27 +94,27 @@ body{
 
 .PFplayerl{
     margin-right: 250px;
-    border: #ffffff 1px solid;
+    border: #000000 1px solid;
     width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     height: 40px;
-    color: #00000094;
-    background-color: #41007e4b;
+    color: #fffffffb;
+    background-color: #00000031;
 }
 
 .PFplayerd{
-    border: #ffffff 1px solid;
+    border: #000000 1px solid;
     width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     height: 40px;
-    color: black;
-    background-color: #59258a86;
+    color: #000000;
+    background-color: #ffffff31;
 }
 
 .PFcomentario{

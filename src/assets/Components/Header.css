@@ -11,6 +11,7 @@
     display: flex;
     color: #ffffffef;
     border-bottom: 2px solid #4505bbda;
+
   }
   
   .list1{
@@ -28,6 +29,7 @@
     cursor: pointer;
     
   }
+
   
   .hb1:hover{
     transition: 0.2s;
@@ -42,6 +44,7 @@
     align-items: center;
     padding-top: 25px;
     margin-left: 65px;
+   
   }
   
   .ps1i{
@@ -49,6 +52,7 @@
     outline: none;
     display: flex;
     border-color: #460088;
+    
   }
   
   .ps1b{
@@ -73,18 +77,51 @@
     background-color: #ffffff;
   }
 
+  .dropd1{
+    display: inline-block;
+    text-decoration: none;
+    bleed: 1px;
+    position: relative;
+    right: 0cm;
+    cursor: pointer;
+    z-index: +10;
+  }
+
   .dropd{
     display: inline-block;
     text-decoration: none;
     bleed: 1px;
     position: relative;
-    z-index:  +10;
+    left: 2.09px;
   }
 
-  .dropd .dropd-m a:hover{
+  .UserH{
+    left: 9.01cm;
+    position: relative;
+    display: inline-block;
+    top: 9px;
+    cursor: pointer;
+    z-index: +10;
+  }
+
+  .dropd1 .dropd .dropd-m a:hover{
     background-color: #6200ff85 1s;
 
   }
+
+  .bigode{
+    list-style: none;
+    margin-left: 85px;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+
+  .juuj{
+    list-style: none;
+  }
+
 
   .dropd-m{
     position: absolute;

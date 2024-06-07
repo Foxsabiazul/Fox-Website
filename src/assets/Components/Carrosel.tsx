@@ -13,12 +13,13 @@ import 'swiper/css/autoplay';
 function Carsel(){
     return(
         <>
+    
         <div className="CRm">
             <Swiper
             autoplay={{
                 delay: 5000
             }}
-
+            
             modules={[Navigation, Autoplay]}
             >
                 <SwiperSlide>

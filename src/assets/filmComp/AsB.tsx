@@ -12,7 +12,7 @@ function AsB(){
             <img className='it1f' src={white}/>
     <div className='des1'>
         <section>
-                <p className='marquee-text'>As Branquelas</p>
+                <p className='tl1'>As Branquelas</p>
         </section>
     <div className='imdb'>
                 <p>4,5</p>

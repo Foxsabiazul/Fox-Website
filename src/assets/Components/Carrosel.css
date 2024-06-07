@@ -5,10 +5,12 @@
     border-bottom: 0%;
     border-top: 0%;
     display: flex;
+    cursor: grab;
 
 }
 
 .CRfoto{
     height: 500px;
     width: 1200px;
+    cursor: grab;
 }

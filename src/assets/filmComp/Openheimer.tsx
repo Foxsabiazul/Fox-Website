@@ -5,7 +5,6 @@ import open from "../imgs/Openheimer.jpg";
 function OPh(){
     return(
 <>
-    <li className='itemsr'>
         <div className='itemsr1'>
             <a href="/Openheimer">
             <img className='it1f' src={open}/>
@@ -25,7 +24,6 @@ function OPh(){
         </div>
         </a>
     </div> 
-</li>
 </>    
 )}
 

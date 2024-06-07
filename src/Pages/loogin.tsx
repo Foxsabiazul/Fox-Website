@@ -2,11 +2,9 @@ import "./loogin.css"
 import { ChangeEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
-import eye   from  "../assets/imgs/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg"
-
 
 export interface Loogin{
-  id:number;
+  id: number;
   nome: string;
   email:string;
   senha:string;
@@ -35,12 +33,15 @@ function Loogin() {
     axios.get(`http://localhost:8080/loogin?nome=${user}`)
       .then((res) => {
 
+        const id = res.data[0].id;
         const usr = res.data[0].nome;
         const pass = res.data[0].senha;
 
         if(user === usr && password === pass){
-            
-            navigate("/home");
+          alert("Logado Com Sucesso");
+          localStorage.setItem("userID", id);
+          localStorage.setItem("userName", usr);
+          navigate("/");
         }else{
             setUser("");
             setPassword("");
@@ -59,11 +60,14 @@ function Loogin() {
         senha: userKey
       });
 
-      alert(`${userName} Registrado com sucesso com sucesso`);
+      alert(`${userName} Registrado com sucesso`);
 
      
 
       setUserName("");
+      setPassword("");
+      setUserKey("");
+      setUserEmail("");
 
     } else {
       alert("Falha ao registar");
@@ -71,6 +75,7 @@ function Loogin() {
       setUserName("");
       setPassword("");
       setUserKey("");
+      setUserEmail("");
       setSelectedId(-1);
     }
   };
@@ -85,14 +90,8 @@ function Loogin() {
     setUserKey(e.target.value);
   };
 
-  const [visibility, setVisibility] = useState<string>("password")
-  const handleVisibility = () => {
-    if(visibility === "password"){
-      setVisibility("text")
-    }else{
-      setVisibility("password")
-    }
-  }
+
+
 
     return(
 
@@ -100,47 +99,29 @@ function Loogin() {
     <div className="FAcess">
 
       <div className="acess">
-
           <div className='l2'>
-
           <h2 className="at1">Faça seu Login para Acessar ao Site</h2>
-
           <div className="InpA"><input onChange={handleUserOnchange} type="text" name="username" placeholder="Usuário" /></div>
-
           <div className="InpA"><input onChange={handlePasswordOnChange} type="password" name="password" placeholder="Senha" /></div>
-          
           </div>
-
-         <input onClick={handleOnclick} type="submit" value="Entrar" className="btnent"/>
-
+         <input onClick={handleOnclick} type="submit" value="Entrar" />
       </div>
 
       <div className="divisao"><div className="divisao2"></div></div>
 
       <div className="cadass">
-          
+          <div className="c2">
             <h2 className="at2">Cadastre-se Aqui</h2>
-
-            <div className="cadass2">
-            <div className="InpC1"><input type="text" placeholder="Novo Usuário: nome" onChange={handleOnInputName} className='ipt'
+            <div className="InpC"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
             value={userName.length > 0 ? userName : ""}/></div>
-
-            <div className="InpC2"><input type="text" placeholder="Informe Seu Email" onChange={handleOnInputEmail} className='ipt'
+            <div className="InpC"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
-
-            <div className="InpC3"><input type={visibility} placeholder="Insira sua Senha" onChange={handleOnInputkey} className='ipt'
-            value={userKey.length > 0 ? userKey : ""} /></div>
-            
-              <span className="eyedress" onClick={handleVisibility}><img src={eye} alt="" /></span>
-              </div>
-
-
-            <div className="btncass2"><input onClick={handleAddOrUpdateUser} type="submit" value="Cadastre-se" className="btncass"/></div>
-            
-
+            <div className="InpC"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
+            value={userKey.length > 0 ? userKey : ""}  /></div>
           </div>
-          
+          <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastrar" />
       </div>
+    </div>
     </>
     )
 }

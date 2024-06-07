@@ -10,6 +10,7 @@ import IRLND  from "../filmComp/IRLND";
 import IniP   from "../filmComp/IniP";
 import VDV    from "../filmComp/VDV";
 import IdM    from "../filmComp/IdM";
+import ClubeDaLuta from "../filmComp/ClubeDaLuta";
 
 
 
@@ -33,13 +34,7 @@ function Recomends(){
                   <IniP/>
                   <IdM/>
                   <VDV/>
-
-    <div className="mrq1">
-
-    </div>
-    
-
-       
+                  <ClubeDaLuta/>     
   </li>
 </div>
       </>
